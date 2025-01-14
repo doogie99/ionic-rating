@@ -131,6 +131,39 @@
           }
         }
       }
+    },
+    "ionic-rating-component": {
+      "projectType": "library",
+      "root": "projects/ionic-rating-component",
+      "sourceRoot": "projects/ionic-rating-component/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ionic-rating-component/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ionic-rating-component/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ionic-rating-component/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/ionic-rating-component/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

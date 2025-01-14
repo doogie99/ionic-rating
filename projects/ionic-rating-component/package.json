@@ -1,0 +1,39 @@
+{
+  "name": "ionic-rating-component",
+  "description": "Highly customizable ionic 7 component to display evaluations or a quick rating operation of something.",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squareetlabs/ionic-rating-component.git"
+  },
+  "author": {
+    "name": "Jacobo Cantorna Cigarrán",
+    "email": "jacobo@squareet.com.com",
+    "url": "https://squareet.com"
+  },
+  "contributors": [
+    {
+      "name": "Alberto Rial Barreiro",
+      "email": "alberto@squareet.com",
+      "url": "https://squareet.com"
+    },
+    {
+      "name": "Josue Moreno",
+      "email": "josuelmm92@gmail.com",
+      "url": "https://seelight.cloud"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/squareetlabs/ionic-rating-component",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0",
+    "@angular/forms": "^15.2.0",
+    "@ionic/angular": "^7.0.0",
+    "rxjs": "~7.8.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

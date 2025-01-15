@@ -17,6 +17,7 @@ import { IonicRatingService } from './ionic-rating.service';
         --padding-end:0;
         --padding-start:0;
         --padding-top:0;
+        min-height: unset;
     }
   `],
   providers: [

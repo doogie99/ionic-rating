@@ -1,9 +1,31 @@
 {
-  "name": "ionic-rating-test-app",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
-  "scripts": {
+    "name": "ionic-rating-component",
+    "description": "Highly customizable ionic component to display evaluations or a quick rating operation of something.",
+    "version": "2.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/squareetlabs/ionic-rating-component.git"
+    },
+    "author": {
+      "name": "Jacobo Cantorna Cigarrán",
+      "email": "jacobo@squareet.com.com",
+      "url": "https://squareet.com"
+    },
+    "contributors": [
+      {
+        "name": "Alberto Rial Barreiro",
+        "email": "alberto@squareet.com",
+        "url": "https://squareet.com"
+      },
+      {
+        "name": "Josue Moreno",
+        "email": "josuelmm92@gmail.com",
+        "url": "https://seelight.cloud"
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/squareetlabs/ionic-rating-component",
+    "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -66,6 +88,5 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.2.0",
     "typescript": "~5.6.3"
-  },
-  "description": "An Ionic project"
+  }
 }

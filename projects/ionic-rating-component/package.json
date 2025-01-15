@@ -1,7 +1,7 @@
 {
   "name": "ionic-rating-component",
   "description": "Highly customizable ionic 7 component to display evaluations or a quick rating operation of something.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/squareetlabs/ionic-rating-component.git"

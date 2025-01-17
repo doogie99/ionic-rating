@@ -1,7 +1,7 @@
 {
     "name": "ionic-rating-component",
     "description": "Highly customizable ionic component to display evaluations or a quick rating operation of something.",
-    "version": "2.0.1",
+    "version": "3.0.1",
     "repository": {
       "type": "git",
       "url": "git+https://github.com/squareetlabs/ionic-rating-component.git"
@@ -29,12 +29,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
+    "serve_lib": "ng build ionic-rating-component --watch",
     "build_lib": "ng build ionic-rating-component",
-    "e2e": "ng e2e",
-    "gulp": "gulp",
     "npm_pack": "cd dist/ionic-rating-component && npm pack && mv *.tgz ../../",
     "package": "npm run build_lib && npm run npm_pack",
     "publish": "npm run package && cd dist && npm publish"
